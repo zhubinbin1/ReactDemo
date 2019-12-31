@@ -19,7 +19,7 @@ module.exports = {
     resolve: {
         alias: {
             "~": path.resolve(__dirname, 'node_modules'),
-            "@": path.resolve(__dirname)
+            "@": path.resolve(__dirname, 'src')
         },
         extensions: ['.ts', '.tsx', '.js', '.json'] //文件扩展名字,先找ts后找json
     },
